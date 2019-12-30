@@ -278,6 +278,12 @@ body, html {
      .footer {
         height:150px;
       }
+      .phone-number{
+          visibility: hidden;
+      }
+      .fa-phone-square, .fa-whatsapp{
+        font-size:30px;
+      }
     
 
   }

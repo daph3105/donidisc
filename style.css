@@ -210,10 +210,7 @@ body, html {
     font-size: 10px; 
     color: #999999; 
   }
-  .social ul li {
-    display: inline-block;
-    padding-right: 5px !important;
-  }
+
   
   .footer .col ul li:hover {
     color: #ffffff;
@@ -224,6 +221,18 @@ body, html {
   .clearfix {
     clear: both;
   }
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:130px;
+    width:200px;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:130px;
+    width:200px;
+}
   @media only screen and (min-width: 1280px) {
     .contain {
       width: 1200px;
@@ -231,13 +240,8 @@ body, html {
     }
   }
   @media only screen and (max-width: 1139px) {
-    .contain .social {
-      width: 1000px;
-      display: block;
-    }
-    .social h1 {
-      margin: 0px;
-    }
+
+
   }
   @media only screen and (max-width: 950px) {
     .footer .col {
@@ -249,6 +253,15 @@ body, html {
     .footer .col ul li {
       font-size: 13px;
     }
+    .mapouter{
+        height:80px;
+        width:120px;
+    }
+    .gmap_canvas {
+        height:80px;
+        width:120px;
+    }
+
   }
   @media only screen and (max-width: 500px) {
       .footer .col {

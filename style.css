@@ -215,6 +215,9 @@ body, html {
     font-size: 10px; 
     color: #999999; 
   }
+  .phone-number a{
+    color: #999999;
+  }
 
   
   .col1 ul li:hover {
@@ -226,6 +229,10 @@ body, html {
   .clearfix {
     clear: both;
   }
+  a{
+    color:#F44336;
+  }
+
 .mapouter{
     position:relative;
     text-align:right;

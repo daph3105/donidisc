@@ -232,6 +232,9 @@ body, html {
   a{
     color:#F44336;
   }
+  a:hover{
+      color:white;
+  }
 
 .mapouter{
     position:relative;
